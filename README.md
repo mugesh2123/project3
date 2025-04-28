@@ -34,3 +34,16 @@ Windows PC – Used to act as the Attacker machine.
          
         done 
         echo "Detection Completed. check $outputfile for result"
+# Run the script background to check automatically 
+        while true
+        
+        do 
+
+        echo " /root/Desktop/project3/sshlogin.sh "
+
+        sleep 10
+
+        done
+When we want to run a shell script (or command) in the background and also keep it running even after closing the terminal, we use:
+
+➔ nohup + &
